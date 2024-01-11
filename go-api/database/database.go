@@ -10,6 +10,13 @@ import (
 // Users in-memory database
 var Users []models.User
 
+// Initialize Users with some data
+func init() {
+	Users = []models.User{
+		{ID: 0, Name: "Valentyn", Email: "valentyn.khoroshylov@gmail.com"},
+	}
+}
+
 // UserExists checks if the user with this ID exists in the in-memory database
 func UserExists(userID int) bool {
 	return userID >= 0 && userID < len(Users)
