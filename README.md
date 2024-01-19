@@ -13,15 +13,21 @@ This is a simple Golang API+React Frontend app for a user management system. It 
 
    ```bash
    git clone https://github.com/horoshi10v/sigma-test.git
-   cd sigma-test/go-api
-2. Install dependencies:
-  ```bash
-  go mod download
-  ```
-3. Run the API:
-  ```bash
-  go run cmd/main.go
-  ```
+  
+2. Go into the repository:
+
+   ```bash
+   cd go-api
+3. Install dependencies:
+  
+     ```bash
+     go mod download
+     ```
+4. Run the API:
+   
+     ```bash
+     go run cmd/main.go
+     ```
   The API will be running at http://localhost:8080.
 
 API Endpoints
@@ -40,15 +46,15 @@ API Endpoints
 ### Installation
 
   ```bash
-  cd sigma-test/react-frontend-app
+  cd react-frontend-app
   ```
 Install dependencies:
 
 ```bash
-yarn install
+nmp install
 ```
 Run the React app:
 ```bash
-yarn start
+nmp start
 ```
 The React app will be running at http://localhost:3000.
