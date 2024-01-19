@@ -1,3 +1,5 @@
+### Main Page
+<img src="demo-img.png" alt="main" title="sigma-test-img" >
 
 This is a simple Golang API+React Frontend app for a user management system. It provides CRUD operations for managing user entities.
 
